@@ -1,0 +1,9 @@
+ * 3) Beta testing and feedback!
+ * 3.1) On all screens and dialogs - back button, menu button, lock/unlock screen.
+ * 3.2) On different screen sizes and OS versions.
+ * 3.3) http://developer.android.com/distribute/googleplay/quality/core.html#core
+ * 4) Upload it to the market :) .
+ * 4.1) Screenshots.
+ * 4.2) EULA?
+
+The ScoreBoard application is a tool that will help you to write down and track game scores. You can configure the number of teams, edit team names and add score to each team for each game round.

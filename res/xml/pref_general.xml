@@ -1,0 +1,47 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="18"
+        android:entries="@array/pref_font_size_list"
+        android:entryValues="@array/pref_font_size_values"
+        android:key="font_size"
+        android:negativeButtonText="@string/cancel"
+        android:persistent="true"
+        android:positiveButtonText="@string/ok"
+        android:title="@string/pref_font_size" />
+
+    <ListPreference
+        android:defaultValue="4"
+        android:entries="@array/pref_team_count_list"
+        android:entryValues="@array/pref_team_count_values"
+        android:key="team_count"
+        android:negativeButtonText="@string/cancel"
+        android:persistent="true"
+        android:positiveButtonText="@string/ok"
+        android:title="@string/pref_team_count" />
+
+    <EditTextPreference
+        android:defaultValue="1"
+        android:inputType="number"
+        android:numeric="integer"
+        android:key="min_score"
+        android:negativeButtonText="@string/cancel"
+        android:persistent="true"
+        android:positiveButtonText="@string/ok"
+        android:title="@string/pref_min_score"
+        android:summary="@string/pref_min_score_hint"
+        android:dialogTitle="@string/pref_min_score_dialog" />
+
+    <EditTextPreference
+        android:defaultValue="99"
+        android:inputType="number"
+        android:numeric="integer"
+        android:key="max_score"
+        android:negativeButtonText="@string/cancel"
+        android:persistent="true"
+        android:positiveButtonText="@string/ok"
+        android:title="@string/pref_max_score"
+        android:summary="@string/pref_max_score_hint"
+        android:dialogTitle="@string/pref_max_score_dialog" />
+
+</PreferenceScreen>
